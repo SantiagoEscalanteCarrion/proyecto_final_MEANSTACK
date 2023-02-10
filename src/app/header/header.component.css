@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 200px;
+  background: linear-gradient(black, orangered, yellow);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  text-align: center;
+  font-size: 5vw;
+  width: 70%;
+}
+
+#divHeader{
+  width: 30%;
+  height: 60%;
+}
+
+img{
+  width: 100%;
+  height: 70%;
+}
+
+nav{
+  height: 150px;
+  background-color: black;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+li{
+  color: white;
+  font-size: 1vw;
+}
+
