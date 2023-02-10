@@ -4,23 +4,25 @@
 }
 
 header{
-  height: 200px;
+  height: 150px;
   background: linear-gradient(black, orangered, yellow);
   justify-content: center;
   align-items: center;
   display: flex;
+  position: sticky;
+  top: 0px;
 }
 
 h1{
   font-family: 'Permanent Marker', cursive;
   color: black;
   text-align: center;
-  font-size: 7vw;
+  font-size: 6vw;
   width: 70%;
 }
 
 #divHeader{
-  width: 15%;
+  width: 10%;
   height: 80%;
 }
 
@@ -29,8 +31,14 @@ img{
   height: 100%;
 }
 
+mat-toolbar{
+  position: sticky;
+  top: 150px;
+}
+
 mat-toolbar-row{
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 a{

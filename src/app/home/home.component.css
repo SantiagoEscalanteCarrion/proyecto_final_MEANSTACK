@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+h2{
+  font-family: 'Righteous', cursive;
+  font-size: 3vw;
+  background-color: rgb(246, 197, 106);
+  text-align: center;
+  padding: 20px;
+}
+
+img{
+  width: 100%;
+  height: 90%;
+}
+
+#imgReinoAnimal{
+  display: flex;
+  background-color: black;
+  height: 400px;
+  justify-content: center;
+  width: 40%;
+}
+
+#txtReinoAnimal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 197, 106);
+  width: 50%;
+  height: 300px;
+}
+
+p{
+  margin: 25px;
+  font-size: 1.5vw;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5vw;
+}
